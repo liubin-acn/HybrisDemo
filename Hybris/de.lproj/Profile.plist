@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>values</key>
+		<array/>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Anrede</string>
+		<key>property</key>
+		<string>titleCode</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>error</key>
+		<string>Bitte geben Sie Ihren Vornamen ohne Leerzeichen ein.</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Vorname</string>
+		<key>property</key>
+		<string>firstName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeWords</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>error</key>
+		<string>Bitte geben Sie Ihren Nachnamen ohne Leerzeichen ein.</string>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Nachname</string>
+		<key>property</key>
+		<string>lastName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Währung</string>
+		<key>property</key>
+		<string>currency.name</string>
+	</dict>
+	<dict>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Sprache</string>
+		<key>property</key>
+		<string>language.name</string>
+	</dict>
+</array>
+</plist>

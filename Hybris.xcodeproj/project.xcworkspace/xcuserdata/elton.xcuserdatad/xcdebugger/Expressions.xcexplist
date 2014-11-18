@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[HYFacetTableViewController tableView:cellForRowAtIndexPath:]:HYFacetTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSDictionary *)facet.values">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HYWebService populateFacetsForQuery:withArray:]:HYWebService.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[HYFacet(Factory) objectWithInfo:inManagedObjectContext:]:HYFacet+Factory.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSString *)[facetInfo valueForKey:@&quot;facetValues&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

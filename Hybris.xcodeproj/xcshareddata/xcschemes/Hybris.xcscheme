@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4A2E5AE1552E80A0041DB66"
+               BuildableName = "hybris.app"
+               BlueprintName = "Hybris"
+               ReferencedContainer = "container:Hybris.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4A2E5CE1552E80B0041DB66"
+               BuildableName = "HybrisTests.octest"
+               BlueprintName = "HybrisTests"
+               ReferencedContainer = "container:Hybris.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "HYWebServiceTest/testAddToCart">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testCartCreation">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testCartFlow">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testChangeCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testCreateCustomerPaymentInfo">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testDeleteCartDeliveryAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testDeleteProductInCart">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testFetchStandardDataThenGetProducts">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testLogIn">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testLogOut">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testProductCode">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testProducts">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testSetCartDeliveryAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testUpdateQuantity">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testRegisterCustomer">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testAddCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testMakeCustomerAddressDefault">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testRemoveCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testUpdateCustomerPassword">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCustomerPaymentInfo">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCustomerPaymentInfoById">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testDeleteCustomerPaymentInfoByID">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCustomerPaymentInfoByID">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testUpdateCustomerPaymentBillingInfo">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCustomerProfile">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testSetCustomerAddressDefault">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testUpdateCustomerPaymentInfo">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testUpdateCustomerProfile">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testCreateCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testDeleteCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testUpdateCustomerAddress">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetLanguages">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCurrencies">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCountries">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetCardTypes">
+               </Test>
+               <Test
+                  Identifier = "HYWebServiceTest/testGetTitles">
+               </Test>
+               <Test
+                  Identifier = "HYViewControllerTests/testHYProductListViewController">
+               </Test>
+            </SkippedTests>
+            <LocationScenarioReference
+               identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+               referenceType = "1">
+            </LocationScenarioReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D4A2E5AE1552E80A0041DB66"
+            BuildableName = "hybris.app"
+            BlueprintName = "Hybris"
+            ReferencedContainer = "container:Hybris.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D4A2E5AE1552E80A0041DB66"
+            BuildableName = "hybris.app"
+            BlueprintName = "Hybris"
+            ReferencedContainer = "container:Hybris.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D4A2E5AE1552E80A0041DB66"
+            BuildableName = "hybris.app"
+            BlueprintName = "Hybris"
+            ReferencedContainer = "container:Hybris.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

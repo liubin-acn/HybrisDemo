@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>values</key>
+		<array/>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Credit Card Type</string>
+		<key>property</key>
+		<string>cardType.name</string>
+	</dict>
+	<dict>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please check your credit card number.</string>
+		<key>validation</key>
+		<string>^([0-9]{16})$</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Credit Card Number</string>
+		<key>property</key>
+		<string>cardNumber</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypePhonePad</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeNone</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{1,255}$</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please enter a card holder name.</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Card Holder Name</string>
+		<key>property</key>
+		<string>accountHolderName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^(0?[1-9]|1[0-2])$</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please select your credit card expiry month.</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Expiry Month</string>
+		<key>property</key>
+		<string>expiryMonth</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypePhonePad</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeNone</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^(19|20)\d{2}$</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please select your credit card expiry year.</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Expiry Year</string>
+		<key>property</key>
+		<string>expiryYear</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypePhonePad</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeNone</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormSwitchCell</string>
+		<key>title</key>
+		<string>Save</string>
+		<key>property</key>
+		<string>saved</string>
+	</dict>
+	<dict>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormSwitchCell</string>
+		<key>title</key>
+		<string>Default Payment</string>
+		<key>property</key>
+		<string>defaultPaymentInfo</string>
+	</dict>
+	<dict>
+		<key>values</key>
+		<array/>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Title</string>
+		<key>property</key>
+		<string>billingAddress.title</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please enter your first name without any spaces.</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>First Name</string>
+		<key>property</key>
+		<string>billingAddress.firstName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>title</key>
+		<string>Last Name</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please enter your last name without any spaces.</string>
+		<key>property</key>
+		<string>billingAddress.lastName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,255}$</string>
+		<key>title</key>
+		<string>Address Line 1</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please enter address line 1.</string>
+		<key>property</key>
+		<string>billingAddress.line1</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,255}$</string>
+		<key>title</key>
+		<string>Address Line 2</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>required</key>
+		<false/>
+		<key>property</key>
+		<string>billingAddress.line2</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,10}$</string>
+		<key>title</key>
+		<string>Postcode</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please enter your postcode.</string>
+		<key>property</key>
+		<string>billingAddress.postalCode</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,255}$</string>
+		<key>title</key>
+		<string>Town</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please enter your town or city.</string>
+		<key>property</key>
+		<string>billingAddress.town</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Country</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please select your country.</string>
+		<key>property</key>
+		<string>billingAddress.country.name</string>
+	</dict>
+</array>
+</plist>

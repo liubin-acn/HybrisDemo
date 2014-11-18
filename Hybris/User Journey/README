@@ -1,0 +1,8 @@
+This folder is for all user journey files. 
+
+The directory "Base User Journey" contains the base classes. using this user journey will provide the basic
+sample app.
+
+The directory "Example User Journey" contains an example custom View Factory, and two example views. It is expected
+that the base storybaord would be copied when building a new user journey.
+

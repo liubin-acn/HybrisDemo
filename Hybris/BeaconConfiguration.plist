@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Beacons</key>
+	<dict>
+		<key>65536</key>
+		<array>
+			<string>1934794</string>
+			<string>1934795</string>
+			<string>1934796</string>
+			<string>2054947</string>
+			<string>3555166</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>values</key>
+		<array/>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Title</string>
+		<key>property</key>
+		<string>title</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>error</key>
+		<string>Please enter your first name without any spaces</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>First Name</string>
+		<key>property</key>
+		<string>firstName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>error</key>
+		<string>Please enter your last name without any spaces</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Last Name</string>
+		<key>property</key>
+		<string>lastName</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,255}$</string>
+		<key>error</key>
+		<string>Please enter address line 1.</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Address Line 1</string>
+		<key>property</key>
+		<string>line1</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,255}$</string>
+		<key>required</key>
+		<false/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Address Line 2</string>
+		<key>property</key>
+		<string>line2</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,255}$</string>
+		<key>error</key>
+		<string>Please enter your town or city.</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Town or City</string>
+		<key>property</key>
+		<string>town</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>validation</key>
+		<string>^.{0,10}$</string>
+		<key>error</key>
+		<string>Please enter your postcode.</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Post Code</string>
+		<key>property</key>
+		<string>postalCode</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>required</key>
+		<true/>
+		<key>error</key>
+		<string>Please select your country.</string>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Country</string>
+		<key>property</key>
+		<string>country.name</string>
+	</dict>
+</array>
+</plist>

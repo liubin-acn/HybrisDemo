@@ -1,0 +1,71 @@
+//
+// Prefix header for all source files of the 'Hybris' target in the 'Hybris' project
+//
+
+#import <Availability.h>
+#import "Hybris.h"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    // Apple
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    // 3rd Party
+    #import <SDWebImage/UIImageView+WebCache.h>
+    #import "SDNetworkActivityIndicator.h"
+    #import <FacebookSDK/FacebookSDK.h>
+    #import "Reachability.h"
+
+    // Customs
+    #import "NSObject+PerformBlock.h"
+    #import "NSArray+Utilities.h"
+    #import "NSDictionary+Utilities.h"
+    #import "Logging.h"
+    #import "NSString+Utilities.h"
+    #import "HYBlockAdditions.h"
+    #import "HYColors.h"
+    #import "PListSerialisation.h"
+    #import "Base64.h"
+    #import "UIView+FindAndResignFirstResponder.h"
+    #import "NSDate+Utilities.h"
+
+    // Model
+    #import "HYObject.h"
+    #import "HYItem+Factory.h"
+    #import "HYProduct+Factory.h"
+    #import "HYFacet+Factory.h"
+    #import "HYFacetValue+Factory.h"
+    #import "HYCategory+Factory.h"
+    #import "HYSort+Factory.h"
+    #import "HYQuery+Factory.h"
+    #import "HYDidYouMean+Factory.h"
+    #import "HYExtendedFooterView.h"
+    #import "Cart+Factory.h"
+    
+    #import "HYSharableObject+Tweet.h"
+    #import "HYSharableObject+Facebook.h"
+    #import "HYSharableObject+Mail.h"
+
+    // Views
+    #import "ViewFactory.h"
+    #import "HYNavigationViewController.h"
+
+    // Constants
+    #import "Constants.h"
+    
+    //Wait View
+    #import "HYWaitView.h"
+    #import "UIViewController+WaitView.h"
+
+    //Delegate
+    #import "HYAppDelegate.h"
+
+    //API
+    #import "HYWebService.h"
+
+#endif

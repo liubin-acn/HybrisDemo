@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>urlPattern</key>
+	<array>
+		<dict>
+			<key>regexPatternBarcode</key>
+			<string>^products://(\d+)</string>
+			<key>regexPatternURL</key>
+			<string>products/(\d+)</string>
+			<key>handlingClass</key>
+			<string>HYProductURLSchemeController</string>
+		</dict>
+		<dict>
+			<key>regexPatternBarcode</key>
+			<string>^stores://\?radius=(\d+)</string>
+			<key>regexPatternURL</key>
+			<string>stores/\?radius=(\d+)</string>
+			<key>handlingClass</key>
+			<string>HYStoreURLSchemeController</string>
+		</dict>
+		<dict>
+			<key>regexPatternBarcode</key>
+			<string>^stores://\?longitude=(\-?\d+(\.\d+)?)&amp;latitude=(\-?\d+(\.\d+)?)&amp;radius=(\d+)</string>
+			<key>regexPatternURL</key>
+			<string>stores/\?longitude=(\-?\d+(\.\d+)?)&amp;latitude=(\-?\d+(\.\d+)?)&amp;radius=(\d+)</string>
+			<key>handlingClass</key>
+			<string>HYStoreURLSchemeController</string>
+		</dict>
+		<dict>
+			<key>regexPatternBarcode</key>
+			<string>^orders://(\d+)</string>
+			<key>regexPatternURL</key>
+			<string>orders/(\d+)</string>
+			<key>handlingClass</key>
+			<string>HYOrderURLSchemeController</string>
+		</dict>
+		<dict>
+			<key>regexPatternBarcode</key>
+			<string>^\d+</string>
+			<key>regexPatternURL</key>
+			<string>\d+</string>
+			<key>handlingClass</key>
+			<string>HYProductIDURLSchemeController</string>
+		</dict>
+		<dict>
+			<key>regexPatternBarcode</key>
+			<string>/yacceleratorstorefront/p/([^/\?]+).*$</string>
+			<key>regexPatternURL</key>
+			<string>/yacceleratorstorefront/p/([^/\?]+).*$</string>
+			<key>handlingClass</key>
+			<string>HYLinkURLSchemeController</string>
+		</dict>
+	</array>
+	<key>productSharingPattern</key>
+	<string>%1$@/yacceleratorstorefront/p/%2$@?site=%3$@</string>
+	<key>Ignored Facets</key>
+	<array>
+		<string>Stores</string>
+	</array>
+	<key>Default object refresh interval</key>
+	<real>3</real>
+</dict>
+</plist>

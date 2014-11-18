@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>values</key>
+		<array/>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextSelectionCell</string>
+		<key>title</key>
+		<string>Title</string>
+	</dict>
+	<dict>
+		<key>error</key>
+		<string>Please enter your first name without any spaces</string>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>First Name</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>error</key>
+		<string>Please enter your last name without any spaces</string>
+		<key>validation</key>
+		<string>^[\S]*$</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Last Name</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeSentences</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>error</key>
+		<string>Please enter a valid email address.</string>
+		<key>validation</key>
+		<string>^(.+)@(.+)$</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormTextEntryCell</string>
+		<key>title</key>
+		<string>Email</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeEmailAddress</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeNone</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>error</key>
+		<string>Your password must be 5 or more characters.</string>
+		<key>validation</key>
+		<string>^.{6,}$</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormSecureTextEntryCell</string>
+		<key>title</key>
+		<string>Password</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeNone</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+	<dict>
+		<key>error</key>
+		<string>Your password must be 5 or more characters.</string>
+		<key>validation</key>
+		<string>^.{6,}$</string>
+		<key>required</key>
+		<true/>
+		<key>cellIdentifier</key>
+		<string>HYFormSecureTextEntryCell</string>
+		<key>title</key>
+		<string>Confirm Password</string>
+		<key>keyboardType</key>
+		<string>UIKeyboardTypeDefault</string>
+		<key>autoCapitalizeType</key>
+		<string>UITextAutocapitalizationTypeNone</string>
+		<key>autoCorrectStyle</key>
+		<string>UITextAutocorrectionTypeNo</string>
+	</dict>
+</array>
+</plist>

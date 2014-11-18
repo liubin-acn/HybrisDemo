@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <array>
+            <string>category:575</string>
+            <string>Digital Camera</string>
+        </array>
+        <array>
+            <string>category:574</string>
+            <string>Film Cameras</string>
+        </array>
+        <array>
+            <string>category:816</string>
+            <string>Power Supplies</string>
+        </array>
+        <array>
+            <string>category:584</string>
+            <string>Hand Held Camcorders</string>
+        </array>
+        <array>
+            <string>category:902</string>
+            <string>Flash Memory</string>
+        </array>
+        <array>
+            <string>category:585</string>
+            <string>Camera Accessories &amp; Supplies</string>
+            <array>
+                <array>
+                    <string>category:587</string>
+                    <string>Tripods</string>
+                </array>
+                <array>
+                    <string>category:586</string>
+                    <string>Camera Flashes</string>
+                </array>
+            </array>
+        </array>
+    </array>
+</plist>
